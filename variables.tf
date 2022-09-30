@@ -50,6 +50,11 @@ variable "storage_encrypted" {
   type        = bool
   default     = true
 }
+variable "db_parameter_group" {
+  description = "whether to create a database parameter group"
+  type        = bool
+  default     = true
+}
 variable "parameter_group_name" {
   description = "Name of the DB parameter group to associate"
   type        = string
