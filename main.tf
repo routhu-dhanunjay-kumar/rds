@@ -12,6 +12,7 @@ resource "aws_db_instance" "this" {
     allocated_storage=  var.allocated_storage
     storage_type= var.storage_type
     storage_encrypted=  var.storage_encrypted
+    db_parameter_group= var.db_parameter_group
     parameter_group_name= var.parameter_group_name
     skip_final_snapshot=  var.skip_final_snapshot
     tags= var.tags
