@@ -52,7 +52,7 @@ variable "storage_encrypted" {
 }
 variable "parameter_group_name" {
   description = "Name of the DB parameter group to associate"
-  type        = string
+  type        = number
   default     = null
 }
 variable "tags" {
