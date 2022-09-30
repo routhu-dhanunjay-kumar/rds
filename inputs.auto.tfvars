@@ -1,0 +1,11 @@
+region="ap-south-1"
+identifier="mysql-db-01"
+engine="mysql"
+engine_version="5.7"
+instance_class="db.t2.micro"
+db_name="mysqldb"
+username="admin"
+password="admin"
+allocated_storage=20
+parameter_group_name="default.mysql.5.7"
+skip_final_snapshot=true
